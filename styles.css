@@ -7,7 +7,7 @@
   margin-bottom: 20px;
 }
 .navbar-default {
-	background-color: #f8f8f8;
+	background: none;
 	border: none;
 	font-size: 1.2em;
 }
@@ -22,11 +22,32 @@
 }
 
 .backgroundTop {
-	margin-top: 50px;
+	margin-top: 30px;
 	height: 65px;
 	background-image: url("img/fondocya.jpg");
 }
 
+.contentPage .jumbotron {
+	background: none;
+}
+
+.contentPage .banner {
+	padding-top: 50px;
+}
+
+.contentPage h1 {
+		font-size: 4.1em;
+		letter-spacing: -0.075em;
+		text-transform: uppercase;
+		line-height: 0.9;
+		color: #555;
+		margin: 0 0 0.5em;
+		font-weight: normal;
+}
+
+.contentPage p {
+	line-height: 1.6;
+}
 @media (min-width: 1217px) {
 	.navbar-brand, .navbar-nav li a {
 		line-height: 98px;
