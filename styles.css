@@ -21,6 +21,12 @@
 	padding-top: 50px;
 }
 
+.backgroundTop {
+	margin-top: 50px;
+	height: 65px;
+	background-image: url("img/fondocya.jpg");
+}
+
 @media (min-width: 1217px) {
 	.navbar-brand, .navbar-nav li a {
 		line-height: 98px;
@@ -31,7 +37,10 @@
 @media (max-width: 1200px) {
 	body {
 	  padding-top: 20px;
-	}	
+	}
+	.backgroundTop {
+		margin-top: 100px;
+	}
     .navbar-header {
         float: none;
     }
