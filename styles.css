@@ -1,4 +1,14 @@
-﻿body {
+﻿html, button, input, select, textarea {
+	font-family: "Open sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	color: #555;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+body {
+  font-family: "Open sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -53,6 +63,10 @@
 	padding-top: 50px;
 }
 
+.lineas h4 {
+	padding-bottom: 20px;
+}
+
 .lineas hr {
 	display: block;
 	height: 1px;
@@ -61,6 +75,14 @@
 	margin: 1em 0;
 	padding: 0;
 }
+
+.cuadrosBlancos {
+	height: 300px;
+	padding: 15px 10px;
+	text-align: center;
+	background-color: #ffffff;
+}
+
 @media (min-width: 1217px) {
 	body {
 		background-image: url("img/cya_esquina.png");
