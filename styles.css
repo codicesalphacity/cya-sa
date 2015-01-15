@@ -66,7 +66,9 @@ body {
 .lineas h4 {
 	padding-bottom: 20px;
 }
-
+.lineas .row {
+	padding-bottom: 20px;
+}
 .lineas hr {
 	display: block;
 	height: 1px;
@@ -77,8 +79,8 @@ body {
 }
 
 .cuadrosBlancos {
-	height: 300px;
-	padding: 15px 10px;
+	height: 320px;
+	padding: 55px 10px;
 	text-align: center;
 	background-color: #eee;
 }
@@ -88,11 +90,15 @@ body {
 }
 
 .ultimosPost h4 {
-	padding: 20px 0px 20px 0px;
+	padding: 20px 0px 10px 0px;
 }
 
 .ultimosPost .post {
-	border-top: 1px solid #ccc;
+	padding-top: 10px;
+}
+
+.ultimosPost p {
+	padding-top: 15px;
 }
 
 @media (min-width: 1217px) {
