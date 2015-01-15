@@ -80,7 +80,19 @@ body {
 	height: 300px;
 	padding: 15px 10px;
 	text-align: center;
-	background-color: #ffffff;
+	background-color: #eee;
+}
+
+.ultimosPost {
+	height: 200px;
+}
+
+.ultimosPost h4 {
+	padding: 20px 0px 20px 0px;
+}
+
+.ultimosPost .post {
+	border-top: 1px solid #ccc;
 }
 
 @media (min-width: 1217px) {
